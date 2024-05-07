@@ -37,7 +37,7 @@ function CCreditsPanel(){
         _pStartPanelPos = {x: _oContainerPanel.x, y: _oContainerPanel.y};
 
 
-        var oLink = new createjs.Text("www.extrasaucestudio.com","52px "+FONT_GAME_1, "#dab977");
+        var oLink = new createjs.Text("Select Another Game","52px "+FONT_GAME_1, "#dab977");
         oLink.y = 40;
         oLink.textAlign = "center";
         oLink.textBaseline = "alphabetic";
@@ -74,7 +74,7 @@ function CCreditsPanel(){
     
     this._onLogoButRelease = function(){
         
-        window.open("https://extrasaucestudio.com/","_blank");
+        window.open("https://freeslotmachine.org/");
     };
     
     this.hide = function(){
